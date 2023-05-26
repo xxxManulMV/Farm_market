@@ -1,6 +1,8 @@
+import 'package:farm_market/ui/pages/profile_page.dart';
 import 'package:flutter/material.dart';
 
-import 'package:farm_market/ui/pages/explore_page.dart';
+import 'package:farm_market/ui/pages/shop_page.dart';
+
 
 
 class ChechenFarmMarketplaceApp extends StatelessWidget {
@@ -14,7 +16,7 @@ class ChechenFarmMarketplaceApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       //Default start page
-      home: ExplorePage(),
+      home: ShopPage()
 
     );
   }
